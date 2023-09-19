@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+:root {
+    --primary: #6979d8;
+    --primary-hover: #a5affb;
+    --second: #be52f2;
+    --second-hover: #DBA5F5;
+    --success: #00C4BC;
+    --success-hover: #7DDFC3;
+    --info: #0084F4;
+    --info-hover: #66B5F8;
+    --warning: #FFA26B;
+    --warning-hover: #FFC7A6;
+    --danger: #FF647C;
+    --danger-hover: #FDAFBB;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background: #fafafa;
+    margin: 0;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.line {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    &_block {
+        display: block;
+    }
+}
